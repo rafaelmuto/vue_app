@@ -21,6 +21,9 @@ new Vue({
   beforeUpdate: function() {
     console.log('beforeUpdated()');
   },
+  updated: function() {
+    console.log('updated()');
+  },
   beforeDestroy: function() {
     console.log('beforeDestroy()');
   },
